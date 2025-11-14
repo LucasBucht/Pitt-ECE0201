@@ -14,8 +14,8 @@ The goal of this repo is to keep track of my course work, experiments, and small
 
 Use this list to link to each subfolder. Add new entries as the repository grows.
 
-1. [Project 1 Title](subfolder1/)
-2. [Project 2 Title](subfolder2/)
+1. [Lab 6: Intro to VHDL and FPGAs](Lab6_Intro_To_FPGAs/)
+2. [Lab 7: Designing Combinational Logic in VHDL](Lab7_Combinational_Logic/)
 3. [Project 3 Title](subfolder3/)
 4. *(Add more as needed)*
 
