@@ -18,6 +18,8 @@ Use this list to link to each subfolder. Add new entries as the repository grows
 2. [Lab 7: Designing Combinational Logic in VHDL](Combinational_Logic/)
 3. [Lab 8: FPGA Synthesis & Behavioral VHDL](Behavioral_FPGA_Synthesis/)
 4. [Lab 9: Latches, Registers, and Flip-Flops](Latches_FlipFlops_Registers/)
+5. [Lab 10: Register Transfer Level (RTL) Design](RTL_Design/)
+
 
 ---
 
