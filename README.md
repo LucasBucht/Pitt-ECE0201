@@ -17,7 +17,7 @@ Use this list to link to each subfolder. Add new entries as the repository grows
 1. [Lab 6: Intro to VHDL and FPGAs](Intro_To_FPGAs/)
 2. [Lab 7: Designing Combinational Logic in VHDL](Combinational_Logic/)
 3. [Lab 8: FPGA Synthesis & Behavioral VHDL](Behavioral_FPGA_Synthesis/)
-4. *(Add more as needed)*
+4. [Lab 9: Latches, Registers, and Flip-Flops](Latches_FlipFlops_Registers/)
 
 ---
 
