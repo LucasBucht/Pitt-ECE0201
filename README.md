@@ -30,7 +30,7 @@ Each project directory generally includes:
 
 - **VHDL source files** for the design  
 - **Testbench files** used for simulation in ModelSim
-- - **Notes** describing functionality, timing behavior, or design decisions  
+- **Notes** describing functionality, timing behavior, or design decisions  
 
 ---
 
