@@ -29,9 +29,8 @@ Use this list to link to each subfolder. Add new entries as the repository grows
 Each project directory generally includes:
 
 - **VHDL source files** for the design  
-- **Testbench files** used for simulation in ModelSim  
-- **Pin assignments** or Quartus settings when needed  
-- **Notes** describing functionality, timing behavior, or design decisions  
+- **Testbench files** used for simulation in ModelSim
+- - **Notes** describing functionality, timing behavior, or design decisions  
 
 ---
 
