@@ -1,0 +1,15 @@
+[ModelSim]
+lmb_ECE0201_lib = $HDS_PROJECT_DIR\lmb_ECE0201_lib\modelsim
+[QuartusQIS]
+lmb_ECE0201_lib = $HDS_PROJECT_DIR\lmb_ECE0201_lib\qis
+[hdl]
+lmb_ECE0201_lib = $HDS_PROJECT_DIR\lmb_ECE0201_lib\hdl
+[hds]
+lmb_ECE0201_lib = $HDS_PROJECT_DIR\lmb_ECE0201_lib\hds
+[hds_settings]
+default_library = lmb_ECE0201_lib
+version = 3
+[library_type]
+lmb_ECE0201_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp
