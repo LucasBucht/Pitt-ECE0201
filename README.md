@@ -18,6 +18,7 @@ The goal of this repo is to keep track of my course work, experiments, and small
 4. [Lab 9: Latches, Registers, and Flip-Flops](Latches_FlipFlops_Registers/)
 5. [Lab 10: Register Transfer Level (RTL) Design](RTL_Design/)
 6. [Lab 11: Finite State Machines](FSM/)
+7. [Lab 12: Datapath and Control (ALU Calculator)](Datapath_and_Control/)
 
 
 ---
