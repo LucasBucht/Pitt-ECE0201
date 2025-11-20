@@ -1,0 +1,24 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+
+ENTITY registerStorage IS
+  port(data_in : in std_logic_vector(8 downto 0);
+       clk, rst, en : in std_logic;
+       data_out : out std_logic_vector(8 downto 0)
+  );
+END ENTITY registerStorage;
+
+--
+ARCHITECTURE behavioral OF registerStorage IS
+BEGIN
+  process(clk, rst, data_in)
+    begin
+      if rst = '1' then
+        data_out <= "000000000";
+      elsif (rising_edge(clk) AND en = '1') then
+        data_out <= data_in;
+    end if;
+  end process;
+END ARCHITECTURE behavioral;
+
