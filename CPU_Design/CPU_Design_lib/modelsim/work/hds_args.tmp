@@ -1,0 +1,1 @@
+ -L CPU_Design_lib -l ../transcript.txt -i -t ns -multisource_delay latest +typdelays CPU_Design_lib.FSM_Datapath(struct)

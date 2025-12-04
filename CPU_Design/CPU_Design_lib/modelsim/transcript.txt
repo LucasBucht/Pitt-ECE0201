@@ -1,0 +1,189 @@
+# vsim -f hds_args.tmp -no_autoacc -foreign "hdsInit C:/Siemens/HDS_2024.1/resources/downstream/modelsim/ModelSim_64Bit.dll" -pli ""C:/Siemens/HDS_2024.1/resources/downstream/modelsim/ModelSim_64Bit.dll"" 
+# Start time: 15:06:46 on Dec 04,2025
+# //  ModelSim DE-64 2024.1 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading CPU_Design_lib.fsm_datapath(struct)
+# Loading CPU_Design_lib.alu_toplevel(struct)
+# Loading CPU_Design_lib.alu_9bitadder(addition)
+# Loading CPU_Design_lib.alu_adder(behavioral)
+# Loading CPU_Design_lib.alu_and(behavioral)
+# Loading CPU_Design_lib.alu_inversion(behavioral)
+# Loading CPU_Design_lib.alu_or(behavioral)
+# Loading CPU_Design_lib.mux2to1x9bits(behavioral)
+# Loading CPU_Design_lib.mux4to1x9bits(behavioral)
+# Loading CPU_Design_lib.fsm_controller(fsm)
+# Loading CPU_Design_lib.mux3to1x9bits(behavioral)
+# Loading CPU_Design_lib.register8x9bits(struct)
+# Loading CPU_Design_lib.decoder3to8(behavioral)
+# Loading CPU_Design_lib.mux8to1x9bits(multiplex)
+# Loading CPU_Design_lib.registerstorage(behavioral)
+# Loading C:/Siemens/HDS_2024.1/resources/downstream/modelsim/ModelSim_64Bit.dll
+do "H:/CPU_Design/CPU_Design/CPU_Design_lib/modelsim/work/wave.do"
+restart -f
+
+force -freeze sim:/fsm_datapath/clk 1 0, 0 {50 ns} -r 100
+force -freeze sim:/fsm_datapath/rst 1 0
+force -freeze sim:/fsm_datapath/Run 1 0
+force -freeze sim:/fsm_datapath/Data_In 9'o130 0
+run 200
+# Loading C:/Siemens/HDS_2024.1/resources/downstream/modelsim/ModelSim_64Bit.dll
+force -freeze sim:/fsm_datapath/rst 0 0
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o130 0
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o545 0
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o140 0
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o030 0
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o534 0
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o120 0
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o677 0
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o432 0
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o630 0
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o053 0
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o100 0
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o102 0
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o350 0
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o160 0
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o001 0
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o110 0
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o000 0
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o170 0
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o000 0
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o275 0
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+force -freeze sim:/fsm_datapath/DATA_IN 9'o276 0
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+run 100
+# 0
+# 
+run 100
+# 0
+# 

@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom Multiplex
+DEFAULT_FILE atom MUX8to1x9bits_Multiplex.vhd

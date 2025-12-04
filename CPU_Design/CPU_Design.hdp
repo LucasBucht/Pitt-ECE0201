@@ -1,7 +1,9 @@
+[ModelSim]
+CPU_Design_lib = $HDS_PROJECT_DIR\CPU_Design_lib\modelsim
 [hdl]
-CPU_Design_lib = $HDS_PROJECT_DIR\CPU_Design_lib\hdl
+CPU_Design_lib = $HDS_PROJECT_DIR/CPU_Design_lib/hdl
 [hds]
-CPU_Design_lib = $HDS_PROJECT_DIR\CPU_Design_lib\hds
+CPU_Design_lib = $HDS_PROJECT_DIR/CPU_Design_lib/hds
 [hds_settings]
 default_library = CPU_Design_lib
 version = 3

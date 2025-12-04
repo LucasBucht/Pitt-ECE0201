@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom behavioral
+DEFAULT_FILE atom ALU_Or_behavioral.vhd
