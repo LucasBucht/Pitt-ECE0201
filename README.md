@@ -19,6 +19,7 @@ The goal of this repo is to keep track of my course work, experiments, and small
 5. [Lab 10: Register Transfer Level (RTL) Design](RTL_Design/)
 6. [Lab 11: Finite State Machines](FSM/)
 7. [Lab 12: Datapath and Control (ALU Calculator)](Datapath_and_Control/)
+8. [Lab 13/14: CPU_Design + Memory](CPU_Design/)
 
 
 ---
