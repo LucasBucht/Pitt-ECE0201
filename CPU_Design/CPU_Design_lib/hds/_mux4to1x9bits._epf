@@ -1,2 +1,0 @@
-DEFAULT_ARCHITECTURE atom behavioral
-DEFAULT_FILE atom MUX4to1x9bits_behavioral.vhd
